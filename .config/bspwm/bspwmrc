@@ -20,7 +20,7 @@ bspc config pointer_follows_monitor    true
 bspc rule -a mpv state=floating center=on
 
 # Autoruns
-~/.config/polybar/start.sh &
+startbar &
 feh --bg-fill --no-fehbg --randomize ~/pictures/wallpapers/* &
 picom &
 xsetroot -cursor_name left_ptr &
